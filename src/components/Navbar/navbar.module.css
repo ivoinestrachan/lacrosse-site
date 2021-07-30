@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.linkContainer {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: #1a062d;
+  margin-left: 1.3rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.iconLinkHolder {
+  margin-right: 1.5rem;
+}
+
+.iconLink {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.flag {
+  width: 2.5rem;
+}

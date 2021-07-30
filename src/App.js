@@ -1,12 +1,8 @@
+import React from "react";
+import Navbar from "./components/Navbar";
 
-import './App.css';
-
-function App() {
-  return (
-    <div>
-     LAX
-    </div>
-  );
-}
+const App = () => {
+  return <Navbar />;
+};
 
 export default App;
