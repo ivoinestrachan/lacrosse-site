@@ -1,0 +1,67 @@
+.container {
+  padding: 1rem;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background: #1a002d;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.button {
+  color: rgba(255, 255, 255, 0.6);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.textContainer {
+  display: flex;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.toolSvg {
+  width: 65px;
+}
+
+.placeInfo {
+  background: #311942;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.playerImgHolder {
+  width: 9vw;
+  display: flex;
+  justify-content: center;
+}
+
+.playerImg {
+  margin-bottom: -7rem;
+  width: 15rem;
+  overflow: visible;
+}
+
+.verticleLine {
+  height: 3rem;
+  border: 2px solid #af97c2a9;
+  border-radius: 3rem;
+  margin-left: 4rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paraWrapper {
+  margin-left: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
