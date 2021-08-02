@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  background: linear-gradient(135deg, #00ffe9 0%, #1d6fa3 100%);
+  padding-top: 1rem;
+  margin-top: -3rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-bottom: 15vh;
+}
+
+.img {
+  width: 20vw;
+  max-width: 213.2px;
+  margin-left: 0.5rem;
+}
+
+.imageList {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20vw; */
+}
+
+.footer {
+  margin-top: 4rem;
+  width: 100%;
+  background: #00000017;
+}
+
+.footerWrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconLinkHolder {
+  margin-right: 1.5rem;
+  color: white;
+}
+
+.iconLink {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.copyright {
+  cursor: pointer;
+  color: white;
+}

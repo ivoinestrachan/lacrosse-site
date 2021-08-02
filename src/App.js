@@ -4,6 +4,8 @@ import Landing from "./components/Landing/";
 import Event from "./components/Event/";
 import Mission from "./components/Mission/";
 import Practice from "./components/Practice/";
+import Register from "./components/Register";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Event />
       <Mission />
       <Practice />
+      <Register />
+      <Team />
     </>
   );
 };
