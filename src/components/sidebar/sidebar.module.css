@@ -1,0 +1,45 @@
+.Container {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+    background: white;
+    background: linear-gradient(135deg, #65fdf0 0%, #1d6fa3 100%);
+  }
+
+  .sidebarLinkHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16vh;
+    /* justify-content: space-between; */
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sidebarIconHolder {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .sidebarIconLink {
+    font-size: 2rem;
+  }
+}

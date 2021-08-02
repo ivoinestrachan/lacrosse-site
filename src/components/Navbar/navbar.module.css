@@ -5,6 +5,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  height: 5rem;
 }
 
 .logoContainer {
@@ -42,4 +43,37 @@
 
 .flag {
   width: 2.5rem;
+}
+
+.hamIcon {
+  display: none;
+  width: 2.8rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  right: 9vw;
+}
+
+.crossIcon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+  right: 9vw;
+  font-size: 2.2rem;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .linkContainer {
+    display: none;
+  }
+
+  .hamIcon {
+    display: flex;
+  }
+
+  .crossIcon {
+    display: flex;
+  }
 }
