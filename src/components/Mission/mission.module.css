@@ -10,9 +10,6 @@
   color: white;
 }
 
-.textContent {
-}
-
 .textWrapper {
   width: 80%;
 
@@ -33,11 +30,30 @@
 }
 
 .imageContent {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .imageWrapper {
 }
 
 .img {
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 80vw;
+    max-width: 460px;
+  }
+
+  .smallHeading {
+    font-size: min(6vw, 24px);
+  }
+
+  .heading {
+    font-size: min(8vw, 48.7667px);
+  }
 }

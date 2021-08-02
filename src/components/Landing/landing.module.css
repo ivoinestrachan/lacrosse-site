@@ -46,3 +46,22 @@
   background: white;
   padding: 0.8rem;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .playerImg {
+    width: 115%;
+    max-width: 465.517px;
+  }
+
+  .heading {
+    font-size: min(8vw, 40.4667px);
+  }
+
+  .para {
+    font-size: min(4.5vw, 19px);
+  }
+}
