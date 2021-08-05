@@ -4,7 +4,7 @@
 }
 
 .sHeading {
-  color: #1A062D87;
+  color: #1a062d87;
   margin-left: auto;
   margin-right: auto;
   font-size: min(1.7vw, 17.4px);
@@ -16,6 +16,17 @@
   margin-right: auto;
   width: max-content;
   font-size: min(4vw, 52.0667px);
-  
 }
 
+@media (max-width: 1024px) {
+  .sHeading {
+    width: 90%;
+    font-size: 3.8vw;
+    margin-bottom: -0.5rem;
+  }
+
+  .heading {
+    width: 90%;
+    font-size: 5.5vw;
+  }
+}

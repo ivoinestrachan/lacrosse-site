@@ -6,6 +6,7 @@ import Mission from "./components/Mission/";
 import Practice from "./components/Practice/";
 import Register from "./components/Register";
 import Team from "./components/Team";
+// import Carousel from "./components/Carousel";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Practice />
       <Register />
       <Team />
+      {/* <Carousel /> */}
     </>
   );
 };

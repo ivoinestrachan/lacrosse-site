@@ -53,3 +53,21 @@
   background: white;
   padding: 0.9rem;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .clickText {
+    display: none;
+  }
+
+  .heading {
+    font-size: 10vw;
+  }
+}
