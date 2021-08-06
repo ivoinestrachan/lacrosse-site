@@ -59,11 +59,11 @@
     flex-direction: column-reverse;
   }
   .heroHeading {
-    font-size: 5.2vw;
+    font-size: min(5.2vw, 28.5px);
   }
 
   .heroPara {
-    font-size: 3.7vw;
+    font-size: min(3.7vw, 15px);
   }
 
   .imgContent {
@@ -71,6 +71,7 @@
   }
 
   .smHeroImg {
+    max-width: 484px;
     display: inline-flex;
     width: 100%;
   }

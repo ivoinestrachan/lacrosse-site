@@ -9,10 +9,10 @@
   /* display: flex;
   justify-content: space-between; */
   color: white;
-  /* position: absolute; */
-  /* left: 0;
-  right: 0; */
-  z-index: -1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* z-index: -1; */
 }
 
 .wrapper {
@@ -70,6 +70,6 @@
   }
 
   .heading {
-    font-size: 10vw;
+    font-size: min(10vw, 39px);
   }
 }

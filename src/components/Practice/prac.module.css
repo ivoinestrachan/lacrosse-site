@@ -21,12 +21,12 @@
 @media (max-width: 1024px) {
   .sHeading {
     width: 90%;
-    font-size: 3.8vw;
+    font-size: min(3.8vw, 20.4px);
     margin-bottom: -0.5rem;
   }
 
   .heading {
     width: 90%;
-    font-size: 5.5vw;
+    font-size: min(5.5vw, 29.5px);
   }
 }
