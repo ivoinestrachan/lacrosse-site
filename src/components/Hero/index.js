@@ -3,11 +3,11 @@ import styles from "./hero.module.css";
 
 import demoImg from "../../assets/demoImg.png";
 
-const Hero = ({ heading, para, order }) => {
+const Hero = ({ heading, para, classname }) => {
   return (
     <div className={styles.heroContainer}>
-      <div className={styles.wrapper}>
-        <div className={styles.textCotent} style={{ order: `${order}` }}>
+      <div className={classname ? `${styles.middleWrapper}` : styles.wrapper}>
+        <div className={classname ? `${styles.textContent}` : ""}>
           <h2 className={styles.heroHeading}>{heading}</h2>
           <p className={styles.heroPara}>{para}</p>
         </div>

@@ -10,8 +10,8 @@
   justify-content: space-between; */
   color: white;
   /* position: absolute; */
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
   z-index: -1;
 }
 
@@ -57,6 +57,8 @@
 @media (max-width: 1024px) {
   .container {
     width: 90%;
+
+    margin-top: 4rem;
   }
 
   .wrapper {
