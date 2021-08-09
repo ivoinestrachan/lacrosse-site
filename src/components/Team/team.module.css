@@ -27,6 +27,8 @@
   width: 20vw;
    max-width: 213.2px;
   margin-left: 0.5rem;
+  border-radius: 0% 2em 0% 2em;  
+  border: 0px solid;
 }
 
 .imageList {
