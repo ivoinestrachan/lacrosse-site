@@ -11,13 +11,13 @@ import Team from "./components/Team";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Landing />
       <Event />
       <Mission />
-      <Practice />
+      <Practice /> */}
       <Register />
-      <Team />
+      {/* <Team /> */}
       {/* <Carousel /> */}
     </>
   );
