@@ -19,7 +19,15 @@ const Register = () => {
             <input placeholder="Email address" className={styles.input} />
             <span className={styles.pairInput}>
               <input placeholder="Age" className={styles.pInput} />
-              <input placeholder="Shirt Size" className={styles.pInput2} />
+              {/* <input placeholder="Shirt Size" className={styles.pInput2} /> */}
+              <select name="size" className={styles.pInput2}>
+                <option value="" disabled selected hidden>
+                  Shirt Size
+                </option>
+                <option value="small">small</option>
+                <option value="large">large</option>
+                <option value="extra large">extra large</option>
+              </select>
             </span>
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>Submit Request</button>
