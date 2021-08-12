@@ -15,11 +15,11 @@ const Register = () => {
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Ready To Rumble</h1>
           <form className={styles.form}>
-            <input placeholder="Name" className={styles.input} />
-            <input placeholder="Email" className={styles.input} />
+            <input placeholder="Full name" className={styles.input} />
+            <input placeholder="Email address" className={styles.input} />
             <span className={styles.pairInput}>
               <input placeholder="Age" className={styles.pInput} />
-              <input placeholder="Shirt Size" className={styles.pInput} />
+              <input placeholder="Shirt Size" className={styles.pInput2} />
             </span>
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>Submit Request</button>
@@ -27,12 +27,12 @@ const Register = () => {
                 <BsArrowUpRight className={styles.icon} />
               </div>
             </div>
-            <p className={styles.contact}>
+              <p className={styles.contact}>
               or{" "}
-              <span className={styles.call}>
-                {" "}
-                <IoCallSharp />
-              </span>{" "}
+                <span className={styles.call}>
+                  {" "}
+                  <IoCallSharp />
+                </span>{" "}
               Call us at +1 285 5210874
             </p>
           </form>
