@@ -27,12 +27,11 @@ const Register = () => {
                 <BsArrowUpRight className={styles.icon} />
               </div>
             </div>
-              <p className={styles.contact}>
-              or{" "}
-                <span className={styles.call}>
-                  {" "}
-                  <IoCallSharp />
-                </span>{" "}
+            <p className={styles.contact}>
+              or
+              <span className={styles.call}>
+                <IoCallSharp />
+              </span>
               Call us at +1 285 5210874
             </p>
           </form>

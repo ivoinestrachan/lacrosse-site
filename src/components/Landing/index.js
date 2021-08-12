@@ -2,6 +2,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import player from "../../assets/player.png";
 import styles from "./landing.module.css";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -16,12 +17,18 @@ const index = () => {
             <br />
             inner-city Bahimian children to the sport of lacrosse
           </p>
-          <div className={styles.buttonWrapper}>
-            <button className={styles.button}>Register Now </button>
-            <div className={styles.iconWrapper}>
-              <BsArrowUpRight className={styles.icon} />
+          <Link
+            to="/register"
+            style={{ textDecoration: "none", cursor: "pointer" }}
+          >
+            <div className={styles.buttonWrapper}>
+              <button className={styles.button}>Register Now </button>
+
+              <div className={styles.iconWrapper}>
+                <BsArrowUpRight className={styles.icon} />
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className={styles.imgContent}>
