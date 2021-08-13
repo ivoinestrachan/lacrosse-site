@@ -19,7 +19,7 @@ const Register = () => {
             <span className={styles.pairInput}>
               <input placeholder="Age" className={styles.pInput} name="age"/>
               {/* <input placeholder="Shirt Size" className={styles.pInput2} /> */}
-              <select name="size" className={styles.pInput2} name="shirt_size">
+              <select name="size" className={styles.pInput2} >
                 <option value="" disabled selected hidden>
                   Shirt Size
                 </option>
