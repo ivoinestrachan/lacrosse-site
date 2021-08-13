@@ -23,9 +23,10 @@ const Register = () => {
                 <option value="" disabled selected hidden>
                   Shirt Size
                 </option>
-                <option value="small">small</option>
-                <option value="large">large</option>
-                <option value="extra large">extra large</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra large">Extra Large</option>
               </select>
             </span>
             <div className={styles.buttonWrapper}>

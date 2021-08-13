@@ -1,6 +1,7 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import player from "../../assets/player.png";
+import helmet1 from "../../assets/helmet1.png";
 import styles from "./landing.module.css";
 import { Link } from "react-router-dom";
 
@@ -10,7 +11,7 @@ const index = () => {
       <div className={styles.textContent}>
         <div className={styles.textWrapper}>
           <h1 className={styles.heading}>
-            Ready to <br /> rumble
+            Ready  <img className={styles.helmet1Img} src={helmet1} alt={helmet1} /> <br />to rumble
           </h1>
           <p className={styles.para}>
             A non-profit organization to expose.
@@ -23,9 +24,8 @@ const index = () => {
           >
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>Register Now </button>
-
               <div className={styles.iconWrapper}>
-                <BsArrowUpRight className={styles.icon} />
+                <BsArrowUpRight className={styles.icon}/>
               </div>
             </div>
           </Link>
