@@ -72,6 +72,10 @@
   color: white;
 }
 
+.logoLink {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 1024px) {
   .linkContainer {
     display: none;

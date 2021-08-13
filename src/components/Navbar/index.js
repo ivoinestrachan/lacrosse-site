@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 import Sidebar from "../sidebar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(true);
@@ -12,7 +13,11 @@ const Navbar = () => {
     <>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <h3 className={styles.logo}>OneLax</h3>
+          <h3 className={styles.logo}>
+            <Link to="/" className={styles.logoLink}>
+              OneLax
+            </Link>
+          </h3>
           <svg
             className={styles.flag}
             viewBox="0 0 68 34"
@@ -62,15 +67,15 @@ const Navbar = () => {
         <Sidebar visible={visible} />
         <div className={styles.linkContainer}>
           <div className={styles.linkHolder}>
-            <a href="1" className={styles.link}>
+            <Link to="/" className={styles.link}>
               Home
-            </a>
-            <a href="1" className={styles.link}>
+            </Link>
+            <Link to="/" className={styles.link}>
               About Us
-            </a>
-            <a href="1" className={styles.link}>
+            </Link>
+            <Link to="/contact-us" className={styles.link}>
               Contact
-            </a>
+            </Link>
           </div>
           <div className={styles.iconLinkHolder}>
             <a

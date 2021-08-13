@@ -1,7 +1,6 @@
 import React from "react";
-// import { IoCallSharp } from "react-icons/io";
 import { IoCallSharp } from "react-icons/io5";
-// import { BsArrowUpRight } from "react-icons/bs";
+
 import styles from "./register.module.css";
 import Img from "../../assets/formImg.png";
 import { BsArrowUpRight } from "react-icons/bs";

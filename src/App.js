@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import LandingPage from "./components/Homepage";
 import Register from "./components/Register";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 // import Landing from "./components/Landing/";
 // import Event from "./components/Event/";
 // import Mission from "./components/Mission/";
@@ -19,6 +20,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/contact-us" component={Contact} />
       </Switch>
     </>
   );
