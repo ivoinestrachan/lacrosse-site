@@ -13,13 +13,13 @@ const Register = () => {
       <div className={styles.container}>
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Ready To Rumble</h1>
-          <form className={styles.form}>
-            <input placeholder="Full name" className={styles.input} />
-            <input placeholder="Email address" className={styles.input} />
+          <form className={styles.form} action="/api/register" method="get">
+            <input placeholder="Full name" className={styles.input} name="name"/>
+            <input placeholder="Email address" className={styles.input} name="email"/>
             <span className={styles.pairInput}>
-              <input placeholder="Age" className={styles.pInput} />
+              <input placeholder="Age" className={styles.pInput} name="age"/>
               {/* <input placeholder="Shirt Size" className={styles.pInput2} /> */}
-              <select name="size" className={styles.pInput2}>
+              <select name="size" className={styles.pInput2} name="shirt_size">
                 <option value="" disabled selected hidden>
                   Shirt Size
                 </option>
