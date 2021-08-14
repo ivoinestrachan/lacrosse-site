@@ -13,19 +13,20 @@ const Register = () => {
       <div className={styles.container}>
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Ready To Rumble</h1>
-          <form className={styles.form}>
-            <input placeholder="Full name" className={styles.input} />
-            <input placeholder="Email address" className={styles.input} />
+          <form className={styles.form} action="/api/register" method="get">
+            <input placeholder="Full name" className={styles.input} name="name"/>
+            <input placeholder="Email address" className={styles.input} name="email"/>
             <span className={styles.pairInput}>
-              <input placeholder="Age" className={styles.pInput} />
+              <input placeholder="Age" className={styles.pInput} name="age"/>
               {/* <input placeholder="Shirt Size" className={styles.pInput2} /> */}
-              <select name="size" className={styles.pInput2}>
+              <select name="size" className={styles.pInput2} >
                 <option value="" disabled selected hidden>
                   Shirt Size
                 </option>
-                <option value="small">small</option>
-                <option value="large">large</option>
-                <option value="extra large">extra large</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra large">Extra Large</option>
               </select>
             </span>
             <div className={styles.buttonWrapper}>

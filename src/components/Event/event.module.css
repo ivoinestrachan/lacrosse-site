@@ -23,6 +23,7 @@
 
 .textContainer {
   display: flex;
+  
 }
 
 .textContent {
@@ -38,9 +39,11 @@
 }
 
 .placeInfo {
+
   background: #311942;
   padding: 0.5rem;
   display: flex;
+
 }
 
 .playerImgHolder {

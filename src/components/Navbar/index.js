@@ -79,7 +79,7 @@ const Navbar = () => {
           </div>
           <div className={styles.iconLinkHolder}>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/BahamasLax"
               rel="noreferrer"
               target="_blank"
               style={{ color: "black" }}
