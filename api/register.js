@@ -28,14 +28,14 @@ export default async (req, res) => {
             age: age,
             size: size
         })
-        return res.status(200).send({status: "success", reason: "User registered!"});
+        return res.redirect("/thank-you")
     }else{
         await db.collection("users").updateOne({email: email}, {$set: {
             name: name,
             age: age,
             size: size
         }})
-        return res.status(200).send({status: "success", reason: "User data updated!"});
+        return res.redirect("/updated")
     }
   }
   
