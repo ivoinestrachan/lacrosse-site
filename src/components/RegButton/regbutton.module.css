@@ -12,6 +12,7 @@
   z-index: 99;
   display: flex;
   justify-content: center;
+  bottom: 16%;
 }
 
 .wrapper {
