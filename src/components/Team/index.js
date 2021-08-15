@@ -20,9 +20,31 @@ const Team = () => {
         <div className={styles.footerWrapper}>
           <p className={styles.copyright}>© 2021. All Rights Reserved.</p>
           <div className={styles.iconLinkHolder}>
-            <FaTwitter className={styles.iconLink} />
-            <IoLogoFacebook className={styles.iconLink} />
-            <RiInstagramFill className={styles.iconLink} />
+            <a
+              href="https://twitter.com/BahamasLax"
+              rel="noreferrer"
+              target="_blank"
+              style={{ color: "white" }}
+            >
+              <FaTwitter className={styles.iconLink} />
+            </a>
+
+            <a
+              href="https://www.facebook.com/One-Lax-Bahamas-101696601424493/"
+              rel="noreferrer"
+              target="_blank"
+              style={{ color: "white" }}
+            >
+              <IoLogoFacebook className={styles.iconLink} />
+            </a>
+            <a
+              href="https://instagram.com/1laxbahamas?utm_medium=copy_link"
+              rel="noreferrer"
+              target="_blank"
+              style={{ color: "white" }}
+            >
+              <RiInstagramFill className={styles.iconLink} />
+            </a>
           </div>
         </div>
       </div>

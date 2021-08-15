@@ -73,11 +73,6 @@
 }
 
 @media (max-width: 1024px) {
-  .container {
-    /* margin-top: -2rem; */
-    /* margin-top: 12rem; */
-  }
-
   .heading {
     font-size: min(6vw, 35px);
     margin-top: 5rem;
