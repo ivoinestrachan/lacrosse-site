@@ -1,8 +1,4 @@
-
-
-@import url('http://fonts.cdnfonts.com/css/circular-std-book?styles=16171,16173,16169');
-
-
+@import url("http://fonts.cdnfonts.com/css/circular-std-book?styles=16171,16173,16169");
 
 .container {
   width: 100%;
@@ -10,8 +6,8 @@
   padding-top: 1rem;
   margin-top: -3rem;
   /* position: absolute; */
-  margin-top: 15rem;
-  z-index: -1;
+  /* margin-top: 22rem; */
+  /* z-index: -1; */
 }
 
 .wrapper {
@@ -23,7 +19,7 @@
 }
 
 .heading {
-  font-family: 'Circular Std Medium', sans-serif;
+  font-family: "Circular Std Medium", sans-serif;
   color: white;
   font-weight: 500;
   font-size: 2.2vw;
@@ -33,9 +29,9 @@
 
 .img {
   width: 17.5vw;
-   max-width: auto;
+  max-width: auto;
   margin-left: 0.5rem;
-  border-radius: 0% 2em 0% 2em;  
+  border-radius: 0% 2em 0% 2em;
   border: 0px solid;
 }
 
@@ -79,7 +75,7 @@
 @media (max-width: 1024px) {
   .container {
     /* margin-top: -2rem; */
-    margin-top: 12rem;
+    /* margin-top: 12rem; */
   }
 
   .heading {

@@ -4,6 +4,7 @@ import Event from "./Event/";
 import Mission from "./Mission/";
 import Practice from "./Practice/";
 import Team from "./Team";
+import RegButton from "./RegButton/";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Event />
       <Mission />
       <Practice />
+      <RegButton />
       <Team />
     </>
   );

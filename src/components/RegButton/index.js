@@ -16,7 +16,7 @@ const index = () => {
               You're just a click away, click 👇
             </h4>
             <div className={styles.buttonWrapper}>
-              <button className={styles.button}>Register Now </button>
+              <button className={styles.button}>Register</button>
 
               <div className={styles.iconWrapper}>
                 <BsArrowUpRight className={styles.icon} />
