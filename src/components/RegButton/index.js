@@ -21,8 +21,13 @@ const index = () => {
               to="/register"
               style={{ textDecoration: "none", cursor: "pointer" }}
             >
-              <div className={styles.buttonWrapper}>
-                <button className={styles.button}>Register</button>
+              <div
+                className={styles.buttonWrapper}
+                style={{ cursor: "pointer" }}
+              >
+                <button style={{ cursor: "pointer" }} className={styles.button}>
+                  Register
+                </button>
 
                 <div className={styles.iconWrapper}>
                   <BsArrowUpRight className={styles.icon} />
