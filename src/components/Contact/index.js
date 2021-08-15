@@ -11,10 +11,10 @@ const Contact = () => {
       <div className={styles.container}>
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Let's talk something...</h1>
-          <form className={styles.form}>
-            <input placeholder="Full name" className={styles.input} />
-            <input placeholder="Email address" className={styles.input} />
-            <textarea placeholder="Message" className={styles.textArea} />
+          <form className={styles.form} action="/api/contact" method="get">
+            <input placeholder="Full name" className={styles.input} name="name"/>
+            <input placeholder="Email address" className={styles.input} name="email"/>
+            <textarea placeholder="Message" className={styles.textArea} name="message"/>
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>Submit Request</button>
               <div className={styles.iconWrapper}>
