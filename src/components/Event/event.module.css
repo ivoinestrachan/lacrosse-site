@@ -23,7 +23,6 @@
 
 .textContainer {
   display: flex;
-  
 }
 
 .textContent {
@@ -36,14 +35,13 @@
 
 .toolSvg {
   width: 65px;
+  object-fit: contain;
 }
 
 .placeInfo {
-
   background: #311942;
   padding: 0.5rem;
   display: flex;
-
 }
 
 .playerImgHolder {

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./event.module.css";
-import TooSvg from "../../assets/ToolSvg";
+import TooPng from "../../assets/lacrosseEvent.png";
 import smallPlayer from "../../assets/smallPlayer.png";
 
 const index = () => {
@@ -8,7 +8,8 @@ const index = () => {
     <>
       <div className={styles.container}>
         <div className={styles.textContainer}>
-          <TooSvg />
+          {/* <TooSvg /> */}
+          <img src={TooPng} alt="tool.png" className={styles.toolSvg} />
           <div className={styles.textContent}>
             <p className={styles.para}>
               Something for <br /> About Programe
