@@ -58,7 +58,7 @@ first();
         
         const mailOptions = {
             from: email,
-            to: "joshyzou@gmail.com",
+            to: "ivoinestrachan242@gmail.com",
             subject: 'Yooo. We got a contact form thing',
             html: `user email: ${req.query.email}, user name: ${req.query.name}, user message: ${req.query.message}`
         };
