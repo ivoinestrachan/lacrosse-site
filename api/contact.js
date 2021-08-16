@@ -2,7 +2,8 @@ export default async (req, res) => {
     String.prototype.replaceAll = function (find, replace) {
         var regex = new RegExp(find, "g");
         return this.replace(regex, replace);
-    };
+    }; 
+    const fetch = require("node-fetch")
     const nodemailer = require("nodemailer");
 
     // ------------------------> important stuff!
