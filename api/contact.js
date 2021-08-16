@@ -56,6 +56,7 @@ export default async (req, res) => {
             subject: 'Yoo! We got a contact form thing',
             html: `user email: ${req.query.email}, user name: ${req.query.name}, user message: ${req.query.message}`
         };
-        transporterx.sendMail(mailOptionsx)
+        transporterx.sendMail(mailOptionsx);
+        return res.send("Form successfully sent!")
     }
 };
