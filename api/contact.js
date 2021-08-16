@@ -46,6 +46,7 @@ export default async (req, res) => {
 
     async function next() {
         console.log("next @45")
+        await sleep(1000);
         var transporterx = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -53,7 +54,6 @@ export default async (req, res) => {
                 pass: pass
             }
         });
-        await sleep(1000);
         
         const mailOptionsx = {
             from: email,
