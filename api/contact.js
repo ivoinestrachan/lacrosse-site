@@ -1,8 +1,11 @@
 export default async (req, res) => {
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
     String.prototype.replaceAll = function (find, replace) {
         var regex = new RegExp(find, "g");
         return this.replace(regex, replace);
-    }; 
+    };
     const fetch = require("node-fetch")
     const nodemailer = require("nodemailer");
 
@@ -33,7 +36,7 @@ export default async (req, res) => {
         html: template
     };
     transporter.sendMail(mailOptions, function (err, info) {
-        if (err){
+        if (err) {
             console.log(err);
             return res.send("invalid email!");
         }
@@ -41,7 +44,8 @@ export default async (req, res) => {
     });
 
 
-    function next() {
+    async function next() {
+        console.log("next @45")
         var transporterx = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -49,14 +53,21 @@ export default async (req, res) => {
                 pass: pass
             }
         });
-
+        await sleep(1000);
+        
         const mailOptionsx = {
             from: email,
             to: "ivoinestrachan242@gmail.com",
-            subject: 'Yoo! We got a contact form thing',
+            subject: 'Yooo. We got a contact form thing',
             html: `user email: ${req.query.email}, user name: ${req.query.name}, user message: ${req.query.message}`
         };
-        transporterx.sendMail(mailOptionsx);
+        transporterx.sendMail(mailOptionsx, function (err, info) {
+            if (err) {
+                console.log(err, "@62")
+            } else {
+                console.log(info)
+            }
+        });
         return res.send("Form successfully sent!")
     }
 };
